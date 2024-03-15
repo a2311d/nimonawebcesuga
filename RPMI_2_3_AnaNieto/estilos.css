@@ -1,0 +1,267 @@
+body {
+    font-size:22px;
+    line-height: 32px;
+    text-align: center;
+    background: #171717;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #FFF;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #171717;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    color: #555555;
+}
+
+h3 a {
+    color: #FFF;
+}
+
+a {
+    color: #FFF;
+}
+h1 {
+    margin-top: 100px;
+    text-align:center;
+    font-size:60px;
+    font-family: 'Bree Serif', 'serif';
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+#thover{
+    font-size: 28px;
+    color: #b94457;
+    
+}
+.navigation {
+    height: 70px;
+    background: #ffffff;
+}
+.brand {
+    margin-top: -25px;
+    position: absolute;
+    line-height: 70px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* NAV */
+.nav-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+nav {
+    float: right;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+            float: left;
+            position: relative;
+            a,
+            a:visited {
+                display: block;
+                padding: 0 20px;
+                line-height: 70px;
+                background: #ffffff;
+                color: #171717;
+                text-decoration: none;
+            }
+            ul li {
+                min-width: 190px;
+                a {
+                    padding: 15px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
+.title {
+    width: 100%;
+}
+
+/* CSS INDEX */
+.content_header {
+    padding: 40px;
+    margin: 0 auto;
+    background-image: url(./Imágenes/portada_nimona.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    color: #ffffff;
+}
+.content_s{
+    margin-top: 350px;
+    padding: 40px;
+    background-color: #ffdcdd;;
+    height: 50vh;
+    color: #171717;
+
+}
+#intro {
+    margin-top: 1500px;
+}
+.imgcab{
+    float: left; 
+    margin-right: 20px;
+    height: 40vh;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+.title {
+    display: flex;
+    justify-content: left;
+    font-size: 24px;
+}
+.content_ab{
+    margin-top: 100px;
+    padding: 40px;
+    background-color: #ffdcdd;
+    height: 50vh;
+    color: #171717;
+}
+.imgrep{
+    float: left; 
+    margin-right: 20px;
+    height: 40vh;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+.btn {
+    display: flex;
+    justify-content: right;
+    padding: 10px 40px;
+    color: #b94457;
+
+}.textrep{
+    text-align: left;
+    margin-left: 500px;
+}
+.content_nov{
+    margin-top: 100px;
+    padding: 40px;
+    background-color: #ffdcdd;;
+    height: 50vh;
+    color: #171717;
+}
+.imgnov{
+    float: left; 
+    margin-right: 20px;
+    height: 40vh;
+    margin-bottom: 30px;
+    border-radius: 15px;
+
+}
+#btn-nov{
+    display: flex;
+    justify-content: right;
+    padding: 10px 40px;
+    color: #b94457;
+    margin-top: 150px;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    background-color: #171717;
+    color: #fff;
+    text-align: center;
+    box-shadow: -5px -0px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* CSS NOVELA */
+.content_novela {
+    padding: 40px;
+    margin: 0 auto;
+    background-image: url(./Imágenes/novela_nimona.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+}
+#intronov{
+    color: #b94457;
+    margin-top: 1500px;
+}
+.content_nov2{
+    margin-top: 220px;
+    padding: 40px;
+    background-color: #ffdcdd;
+    color: #171717;
+    height: 50vh;
+}
+.imgnov2{
+    float: left; 
+    margin-left: 350px;
+    height: 40vh;
+    border-radius: 300px;
+}
+.textnov{
+    margin-right: 400px;
+}
+.imgautor {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    width: 100%; 
+    height: 100vh;
+}
+.imgautor img{
+    width: 300px; 
+    height: auto; 
+    border: 3px solid white;
+}
+#imglibro{
+    width: 219px; 
+    height: auto; 
+    border: 2px solid white;
+}
+.textonovela{
+    color: #ffffff;
+    text-align: left;
+    margin-left: 32px;
+}
+.textonovela p{
+    color: #ffffff;
+    text-align: left;
+}
+#referencia{
+    display: flex;
+    justify-content: right;
+    padding: 10px 40px;
+    color: #b94457;
+}
+
+/* CSS REPARTO */
+.content_reparto {
+    padding: 40px;
+    margin: 0 auto;
+    background-image: url(./Imágenes/reparto_nimona.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+}
+.textoreparto{
+    margin-top: 400px;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 95px;
+}
+.textoreparto h3{
+    text-align: left;
+    color: #b94457;
+}
